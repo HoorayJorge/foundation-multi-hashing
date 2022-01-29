@@ -36,6 +36,17 @@ extern "C" {
     #include "algorithms/yespower/crypto/sha256.h"
     #include "algorithms/yespower/util/sysendian.h"
     #include "algorithms/yespower/util/insecure_memzero.h"
+    #include "algorithms/allium/allium.h"
+    #include "algorithms/Lyra2RE/Lyra2.h"
+    #include "algorithms/Lyra2RE/Lyra2RE.h"
+    #include "algorithms/Lyra2RE/sph_blake.h"
+    #include "algorithms/Lyra2RE/sph_bmw.h"
+    #include "algorithms/Lyra2RE/sph_cubehash.h"
+    #include "algorithms/Lyra2RE/sph_groestl.h"
+    #include "algorithms/Lyra2RE/sph_keccak.h"
+    #include "algorithms/Lyra2RE/sph_skein.h"
+    #include "algorithms/Lyra2RE/sph_types.h"
+    #include "algorithms/Lyra2RE/Sponge.h"
 }
 
 using namespace node;

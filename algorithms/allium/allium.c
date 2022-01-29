@@ -31,12 +31,12 @@
 #include <stdint.h>
 #include <string.h>
 #include <stdio.h>
-#include "crypto/Lyra2RE/sph_blake.h"
-#include "crypto/Lyra2RE/sph_groestl.h"
-#include "crypto/Lyra2RE/sph_skein.h"
-#include "crypto/Lyra2RE/sph_keccak.h"
-#include "crypto/Lyra2RE/sph_cubehash.h"
-#include "crypto/Lyra2RE/Lyra2.h"
+#include "algorithms/Lyra2RE/sph_blake.h"
+#include "algorithms/Lyra2RE/sph_groestl.h"
+#include "algorithms/Lyra2RE/sph_skein.h"
+#include "algorithms/Lyra2RE/sph_keccak.h"
+#include "algorithms/Lyra2RE/sph_cubehash.h"
+#include "algorithms/Lyra2RE/Lyra2.h"
 
 void allium_hash(const char* input, char* state)
 {
